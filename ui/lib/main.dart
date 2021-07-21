@@ -7,12 +7,8 @@ void main() {
   runApp(Homepage());
 }
 
-/* Homepage class is extended by statefulwidget class */
 class Homepage extends StatefulWidget {
-  const Homepage({key}) : super(key: key);
-
   @override
-  /*   */
   _HomepageState createState() => _HomepageState();
 }
 
